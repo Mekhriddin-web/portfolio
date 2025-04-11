@@ -1,12 +1,15 @@
 @import "vars";
 @import "libs";
-@import "fonts";
 @import "blocks/_header.scss";
 @import "blocks/_nav.scss";
 @import "blocks/_about.scss";
 @import "blocks/_skills.scss";
 @import "blocks/_works.scss";
 @import "blocks/_contact.scss";
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;

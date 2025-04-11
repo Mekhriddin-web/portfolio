@@ -2,11 +2,11 @@
 	border-top: 2px solid #ddd;
 	&__inner {
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 		flex-wrap: wrap;
+		gap: 20px 50px;
 	}
 	&__item {
-		margin: 20px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
