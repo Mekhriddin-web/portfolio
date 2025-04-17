@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		menu.classList.toggle("active");
 		document.body.classList.toggle("lock");
 	});
+	
 	menu.addEventListener("click", function () {
 		if (menu.classList.contains('active')) {
 			burger.classList.toggle("active");

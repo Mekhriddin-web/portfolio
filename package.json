@@ -20,7 +20,6 @@
     "normalize.css": "^8.0.1"
   },
   "dependencies": {
-    "gulp-autoprefixer": "^7.0.1",
-    "slick-carousel": "^1.8.1"
+    "gulp-autoprefixer": "^7.0.1"
   }
 }

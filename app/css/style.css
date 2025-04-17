@@ -827,10 +827,10 @@ template {
     height: 2px;
   }
   .nav__burger.active:before {
-    top: 5px;
+    top: 9px;
   }
   .nav__burger.active:after {
-    bottom: 13px;
+    bottom: 9px;
   }
 }
 
@@ -1095,6 +1095,7 @@ template {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  min-width: 252px;
 }
 
 .contacts__item a {
